@@ -587,8 +587,6 @@ File Edit View History Bookmarks Tools Help
   }
 }
 
-::selection {background: var(--shy-accent-color) !important;}
-
 #tracking-protection-icon-box[active]{
   fill: var(--shy-color) !important;
   list-style-image: url(chrome://browser/skin/tracking-protection.svg) !important;
