@@ -9,9 +9,11 @@ Values of these variables can be changed safely and most likely nothing will bre
 
 */
 
+@import url("../ilgwg/color.css");
+
 :root, #screenshots-component *{
   /* accent color */
-  --shy-accent-color: #3584E4;
+  --shy-accent-color: var(--color-primary);
   
   /* window border thickness and size of many margins */
   --margin: 0.8rem;
