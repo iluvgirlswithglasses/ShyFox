@@ -312,24 +312,6 @@ Styles when Sidebery is not opened
 ) {
   --shyfox-string-open-sidebar: "Open sidebar!";
   &[lang="ru"]{--shyfox-string-open-sidebar: "Откройте боковую панель!";}
-  
-  &::before{
-    content: var(--shyfox-string-open-sidebar);
-    position: fixed;
-    z-index: 9999;
-    
-    font-weight: bold;
-    
-    top: calc(var(--margin) + var(--toolbar-item-hgt));
-    left: calc(var(--margin) * 2);
-    
-    background-color: var(--tb-col);
-    color: var(--bt-col);
-    outline: 3px solid red;
-    
-    border-radius: var(--big-rounding);
-    padding: 10px;
-  }
 }
 
 /* styles when Sidebery is not opened but sidebar is */
