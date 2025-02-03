@@ -6,7 +6,7 @@
 
     @font-face {
         font-family: itc;
-        src: url("font/ITCEDSCR.TTF");
+        src: url("../font/ITCEDSCR.TTF");
     }
 
     /* config */
@@ -43,7 +43,7 @@
 
     /* Changes the logo on the private browsing home screen */
     html.private .logo {
-        background-image: url("img/private.png") !important;
+        background-image: url("../img/private.png") !important;
         background-size: var(--bg-size) !important;
         height: var(--bg-size) !important;
         width: var(--bg-size) !important;
