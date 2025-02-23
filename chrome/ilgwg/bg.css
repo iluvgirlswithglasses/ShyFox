@@ -1,3 +1,13 @@
-.browserContainer {
-	background-color: #1c1b22 !important; 
+
+#main-window {
+    --toolbar-bgcolor: color-mix(in hsl, -moz-dialog 88%, white) !important;
 }
+
+.browserContainer {
+    background-color: #1c1b22 !important;
+}
+
+.tab-close-button.close-icon {
+    display: none !important;
+}
+
