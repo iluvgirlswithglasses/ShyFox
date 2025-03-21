@@ -18,9 +18,18 @@ Basically this is [Naezr's ShyFox](https://github.com/Naezr/ShyFox), but the sid
 
 ## Usage
 
-### Install
+I said "dynamic color generation" but in reality it's nothing huge. I simply wrote a script that automatically copies Hyprland's primary color into a three-line file at `./chrome/ilgwg/color.css`. And just like that---boom! Dynamic color generation, done.
 
-Because this ShyFox is meant to work with my [hyprland dots](github.com/iluvgirlswithglasses/dots-hyprland), its installation has some discrepancies from the [upstream](https://github.com/Naezr/ShyFox). Please be careful.
+```css
+<!-- file ./chrome/ilgwg/color.css -->
+:root {
+    --color-primary: #F0B0FF;
+}
+```
+
+You can also specify a color of your choice by just editing that file. No automation needed.
+
+### Install
 
 #### Step 1 - Cloning
 
@@ -57,7 +66,7 @@ cd ShyFox
 
  - Install [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery)
 
-   <details><summary>Configure Sidebery</summary> 
+   <details><summary>Configure Sidebery</summary>
 
    <br/>
 
