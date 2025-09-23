@@ -7,6 +7,11 @@ Navigation bar on top of the window
 
 */
 
+/* ilgwg's fix for waterfox navbar */
+#urlbar {
+    --urlbar-height: 32.00px !important;
+}
+
 /* local variables */
 :root{
   --navbar-real-wdt: var(--navbar-wdt);
@@ -332,3 +337,4 @@ Navigation bar on top of the window
   
   #urlbar-background, #searchbar {background-color: var(--tb-col) !important;}
 }
+

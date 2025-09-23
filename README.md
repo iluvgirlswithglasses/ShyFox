@@ -36,8 +36,12 @@ You can also specify a color of your choice by just editing that file. No automa
 Clone this repository:
 
 ```
-git clone https://github.com/iluvgirlswithglasses/ShyFox --depth 1
+git clone https://github.com/iluvgirlswithglasses/ShyFox
 cd ShyFox
+
+# if you're using firefox, switch to the firefox branch.
+# the main branch is only maintained for waterfox.
+git checkout firefox
 ```
 
 #### Step 2 - Configure extensions
